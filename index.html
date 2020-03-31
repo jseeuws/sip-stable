@@ -410,18 +410,18 @@ Sips stable.</p>
 							</div>
 						</div>
 					</div>
-					<form class="form-area " id="myForm" action="mail.php" method="post" class="contact-form text-right">
+					<form class="form-area " id="myForm" action="https://formspree.io/moqlnrad" method="POST" class="contact-form text-right">
 						<div class="row">
 						<div class="col-lg-6 form-group">
-							<input name="name" placeholder="Je naam" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'" class="common-input mb-20 form-control" required="" type="text">
+							<input name="name" placeholder="Je naam" onfocus="this.placeholder = ''" onblur="this.placeholder = 'schrijf je naam'" class="common-input mb-20 form-control" required="" type="text">
 
-							<input name="email" placeholder="Je email adres" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" class="common-input mb-20 form-control" required="" type="email">
+							<input type="email" name="_replyto" placeholder="Je email adres" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" onfocus="this.placeholder = ''" onblur="this.placeholder = 'schrijf je email adres'" class="common-input mb-20 form-control" required="" type="email">
 
-							<input name="subject" placeholder="Het onderwerp" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your subject'" class="common-input mb-20 form-control" required="" type="text">
+							<input name="subject" placeholder="Het onderwerp" onfocus="this.placeholder = ''" onblur="this.placeholder = 'schrijf onderwerp'" class="common-input mb-20 form-control" required="" type="text">
 						</div>
 						<div class="col-lg-6 form-group">
-							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Bericht" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
-							<button class="primary-btn mt-20">zend bericht<span class="lnr lnr-arrow-right"></span></button>
+							<textarea class="common-textarea mt-10 form-control" name="message" placeholder="Bericht" onfocus="this.placeholder = ''" onblur="this.placeholder = 'bericht'" required=""></textarea>
+							<button class="primary-btn mt-20" type="submit" value="Send">zend bericht<span class="lnr lnr-arrow-right"></span></button>
 							<div class="alert-msg">
 						</div>
 						</div></div>
